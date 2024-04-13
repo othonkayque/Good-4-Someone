@@ -1,0 +1,7 @@
+envie uma mensagem e receba uma mensagem
+
+a pessoa vai entrar no site e a interface 
+é bem simples, ela consegue escrever algo e cliecar em enviar
+quando ela envia uma mensagem ela recebe uma mensagem 
+o site faz uma brulho e no canto superior esquerdo tem um sininho 
+quando você clica ele mostra a mensagem
