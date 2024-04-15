@@ -13,3 +13,16 @@ Good 4 Someone é um projeto criado para alegrar o dia de alguém sem olhar a qu
 `node main.js`.   
 `npx prisma studio`.
 
+
+
+
+
+
+
+https://github.com/othonkayque/Good-4-Someone/assets/46401442/a7415b2d-6528-4ac2-8785-bc3d76228304
+
+
+
+
+
+
