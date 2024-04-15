@@ -34,7 +34,8 @@ function sidebarHistoryShow() {
 function notify() {
     let funcCall = false;
     let msgBox  = document.querySelector('#msg-box').value
-    if( msgBox !== undefined && funcCall === false ) {
+    if ( msgBox === "" && funcCall === false ) {
+
         funcCall = true;
         msgSended.classList.add('alert-sended');
         msgSended.classList.remove('d-none');
@@ -47,8 +48,8 @@ function notify() {
                 funcCall = false;
             }, 3700);
         }, 1000);
-    }
-    else {
+
+    } else {
         console.log('Message sended')
     }
 }

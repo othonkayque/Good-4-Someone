@@ -39,5 +39,5 @@ app.get('/message/:id?', async (req, res) => {
 const port = 3333
 
 app.listen(port, () => {
-    console.log('Projeto rodando na porta: ' + port)
+    console.log('Project port: ' + port)
 })
