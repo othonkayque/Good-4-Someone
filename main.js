@@ -23,11 +23,10 @@ app.post('/', async (req, res) => {
                 date: date            
             }
         })
-        return addMsg;
     }
 })
 
-app.get('/secret/:id?', async (req, res) => {
+app.get('/message/:id?', async (req, res) => {
     let msgId = req.params.id;
     const msgShow = await prisma.msg.findUnique({
         where: {
@@ -37,10 +36,8 @@ app.get('/secret/:id?', async (req, res) => {
     res.json(msgShow)
 })
 
-app.listen(3333, () => {
-    console.log('tudo certo! :)')
+const port = 3333
+
+app.listen(port, () => {
+    console.log('Projeto rodando na porta: ' + port)
 })
-
-
-
-//C:\Users\kayqu.000\Desktop\code\front-end\myProject\prisma
